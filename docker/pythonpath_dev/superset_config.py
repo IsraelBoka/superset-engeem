@@ -28,6 +28,25 @@ from flask_caching.backends.filesystemcache import FileSystemCache
 
 logger = logging.getLogger()
 
+
+APP_NAME = "ngmKandle"
+## Change the primary color
+
+PRIMARY_COLOR = "#2BBED0"
+
+## Change the app icon using a CDN
+
+APP_ICON = "/static/assets/images/engeem_logo.png"  
+
+
+## Change the Gif loading animation
+
+
+## Change the logo
+FAVICONS = [{"href": "/static/assets/images/engeem_favicon.png"}]
+
+LOGO_TOOLTIP = "Go Home" # Text displayed when hovering.
+
 DATABASE_DIALECT = os.getenv("DATABASE_DIALECT")
 DATABASE_USER = os.getenv("DATABASE_USER")
 DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
