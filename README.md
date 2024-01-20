@@ -15,13 +15,17 @@ Apache Superset is an enterprise-ready business intelligence web application tha
 #### installation :
 
 [install with docker](https://superset.apache.org/docs/installation/installing-superset-using-docker-compose/)
+
 [official documentation](https://apache-superset.readthedocs.io/en/0.34.1/)
+
 [contribute to apache article](https://preset.io/blog/tutorial-contributing-code-to-apache-superset/)
+
 [restack docs](https://www.restack.io/docs/superset-knowledge-apache-superset-installation)
 
 #### Problems & errors :
 
 [official github issue with the same login error ](https://github.com/apache/superset/issues/10149)
+
 [login problems restack docs](https://www.restack.io/docs/superset-knowledge-superset-login-problems)
 
 #### Keycloak and SSO :
